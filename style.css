@@ -42,12 +42,21 @@ body{
     text-decoration: none;
     font-size: 1.4rem;
     color: white;
+    
 }
-
+.navItem a:hover{
+    transform: scale(1.2);
+    transition: all 0.5s 0s ease-in;
+     color: #360940;
+}
 #navPara {
     font-size: 1.7rem;
 }
-
+#navPara:hover{
+    transform: scale(1.1);
+    transition: all 0.5s 0s ease-in;
+     color: #360940;
+}
 /*card css started here*/
 .container-item {
     display: flex;
